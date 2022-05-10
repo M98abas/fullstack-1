@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1700px;
+  margin: auto;
+}
+
+.navbar {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: tahoma, arial, helvetica, sans-serif;
+  font-size: 26px;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  list-style: none;
+}
+li {
+  cursor: pointer;
+}
