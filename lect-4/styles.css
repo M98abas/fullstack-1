@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&family=Poppins:wght@100;300;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 1700px;
+  margin: auto;
+}
+
+nav {
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+nav .navbar-content {
+  /* background-color:red; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 120px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  /* justify-content: space-around; */
+}
+
+nav .navbar-content .logo {
+  font-size: 37px;
+  font-weight: 400;
+}
+
+nav .navbar-content .links {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* color: black; */
+  gap: 50px;
+}
+
+nav .navbar-content .links li {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+nav .navbar-content .links a {
+  color: #8a8a8a;
+  text-decoration: none;
+}
+
+nav .navbar-content .links li:hover {
+  -webkit-transform: scale(1.2) translateY(-5px);
+          transform: scale(1.2) translateY(-5px);
+}
+
+.body-content {
+  height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 120px;
+}
+
+.body-content .title {
+  font-size: 38px;
+  color: #767676;
+}
+
+.body-content .lorem {
+  width: 800px;
+  font-size: 24px;
+  line-height: 40px;
+  color: #4f4f4f;
+}
+
+.body-content .button {
+  width: 300px;
+  height: 100px;
+  color: white;
+  font-size: 20px;
+  margin-top: 30px;
+  border-radius: 20px;
+  -webkit-box-shadow: 6px 4px 10px rgba(0, 0, 0, 0.506);
+          box-shadow: 6px 4px 10px rgba(0, 0, 0, 0.506);
+  background-color: #4a507c;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.body-content .button:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-radius: 0;
+}
+/*# sourceMappingURL=styles.css.map */
