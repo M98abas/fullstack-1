@@ -48,3 +48,25 @@ TO push all the code to the repo
 `git clone url.git`
 
 To download and save the file to your local machine .
+
+
+# Lesson-6 
+
+We take these topics 
+
+- Data types => Number(integer,float), String(char,string), Boolean(true,false).
+- String
+- Logical & Comparison Operators.
+- Variables
+- Math => Math.sqrt , Math.sin, Math.Pow ....
+- If Condition => both The nested If and ?.
+- Loop => for, while and Do..while.
+- Switch.
+
+
+---
+
+## Next Lesson 
++ Arrays 
++ Object
++ Functions
