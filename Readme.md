@@ -68,5 +68,23 @@ We take these topics
 
 ## Next Lesson 
 + Arrays 
+  + we used to put many items in different variables and if we use arrays we could store many datatypes in one variable.
+  + we can declare array with this Example :
+    1. This the first way is official way :
+
+                `let x = [1,2,3,4,5,6]`
+    2. the second way is not official :
+      
+                  `let x = new Array(1,2,3,4,5,6)`
+      - We can push Item's to end of the array using :
+      
+                  `x.push(item)`
+      - Or we Can shift(Add item to start) Item using:
+                  `x.shift(item)`
 + Object
+  + is a set of values inside one variable .
+  + the object we use if we want to call any value in it using the key in the object like :
+
+          `let item = {id:1,name:"aLi"...etc}`
 + Functions
+  + It's a set of block of code we use if we want make our code more dynamic and easier 
