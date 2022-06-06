@@ -88,3 +88,21 @@ We take these topics
           `let item = {id:1,name:"aLi"...etc}`
 + Functions
   + It's a set of block of code we use if we want make our code more dynamic and easier 
+
+
+# Lesson 10
+
+## Topics
+
+* Callbacks
+  * 
+* Promises
+  * 
+* Async
+  * 
+* Async/wait
+  * 
+* Class & OOP
+  * 
+* Data Structre
+* Algorithems
